@@ -1,0 +1,743 @@
+{
+  "login": {
+    "brandName": "IssraeDrive",
+    "title": "Connexion",
+    "subtitle": "Connectez-vous à votre compte",
+    "emailPlaceholder": "Adresse e-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "signInButton": "Se connecter",
+    "signingInButton": "Connexion...",
+    "invalidCredentials": "Identifiants invalides. Veuillez réessayer.",
+    "welcomeTitle": "Bienvenue sur IssraeDrive",
+    "welcomeDescription": "La plateforme tout-en-un pour gérer votre auto-école avec efficacité et simplicité.",
+    "demoAccess": "Ou continuer avec l'accès démo",
+    "demoAdmin": "Démo Admin",
+    "demoSecretary": "Démo Secrétaire",
+    "demoSuperAdmin": "Démo Super Admin"
+  },
+  "header": {
+    "logout": "Déconnexion",
+    "profileName": "Admin"
+  },
+  "sidebar": {
+    "brand": "IssraeDrive",
+    "dashboard": "Tableau de bord",
+    "students": "Étudiants",
+    "trainers": "Moniteurs",
+    "staff": "Personnel",
+    "vehicles": "Véhicules",
+    "lessons": "Leçons",
+    "calendar": "Calendrier",
+    "payments": "Paiements",
+    "exams": "Examens",
+    "charge": "Charges",
+    "settings": "Paramètres",
+    "schools": "Gestion des Écoles",
+    "subscriptions": "Abonnements"
+  },
+  "superAdminDashboard": {
+    "title": "Aperçu de la Plateforme SaaS",
+    "totalSchools": "Total des Écoles",
+    "totalStudents": "Total des Étudiants",
+    "totalTrainers": "Total des Moniteurs",
+    "totalSaaSRevenue": "Revenu Total SaaS",
+    "subscriptionDistribution": "Répartition des Abonnements"
+  },
+  "schoolManagementSaaS": {
+    "title": "Gestion des Écoles",
+    "addSchool": "Ajouter une Nouvelle École",
+    "columns": {
+      "name": "Nom de l'école",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "subscription": "Plan",
+      "students": "Étudiants"
+    },
+    "form": {
+      "name": "Nom de l'école",
+      "address": "Adresse",
+      "phone": "Numéro de téléphone",
+      "subscriptionPack": "Pack d'Abonnement",
+      "cancel": "Annuler",
+      "submit": "Ajouter l'école"
+    }
+  },
+  "subscriptionManagement": {
+    "title": "Plans d'Abonnement",
+    "pricePerMonth": "/ mois",
+    "editPlan": "Modifier le Plan",
+    "editModalTitle": "Modifier : {planName}",
+    "form": {
+      "name": "Nom du Plan",
+      "price": "Prix (DH)",
+      "features": "Fonctionnalités (une par ligne)",
+      "save": "Enregistrer",
+      "cancel": "Annuler"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "totalStudents": "Total Étudiants",
+    "scheduledLessons": "Leçons Planifiées",
+    "totalRevenue": "Revenu Total",
+    "availableCars": "Voitures Disponibles",
+    "totalCharges": "Charges Totales",
+    "totalStaff": "Total Personnel",
+    "chargeStaff": "Charges Salariales",
+    "presentStaff": "Personnel Présent",
+    "absentStaff": "Personnel Absent",
+    "lessonsPerMonth": "Leçons par Mois",
+    "revenuePerMonth": "Revenu par Mois",
+    "loading": "Chargement des données du tableau de bord...",
+    "weeklyReports": "Rapports Hebdomadaires",
+    "welcome": {
+      "hello": "Bonjour, {adminName} !",
+      "message": "Bienvenue sur votre tableau de bord."
+    }
+  },
+  "statCard": {
+    "viewDetails": "Voir les détails pour {card}"
+  },
+  "studentManagement": {
+    "title": "Gestion des Étudiants",
+    "addStudent": "Ajouter Étudiant",
+    "backToList": "Retour à la liste",
+    "archive": {
+      "view": "Voir les Archives"
+    },
+    "editAlert": "Modification de l'étudiant : {name}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {name} ?",
+    "deleteAlert": "Suppression de l'étudiant : {name}",
+    "columns": {
+      "id": "ID",
+      "name": "Nom",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "joinDate": "Date d'inscription",
+      "status": "Statut",
+      "licenseCategory": "Catégorie de Permis"
+    },
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "licenseCategory": "Catégorie de Permis",
+      "office": "Agence",
+      "status": "Statut",
+      "inscriptionDate": "Date d'inscription",
+      "categoryPrice": "Prix de la catégorie (DH)",
+      "actualPrice": "Prix réel (DH)",
+      "advancePayment": "Acompte (DH)",
+      "remainingAmount": "Montant restant (DH)",
+      "statusOptions": {
+        "active": "Actif",
+        "inactive": "Inactif",
+        "completed": "Terminé"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Étudiant"
+    },
+    "profile": {
+      "title": "Profil de l'Étudiant",
+      "editProfile": "Modifier le Profil",
+      "joinDate": "Date d'inscription",
+      "licenseCategory": "Catégorie de Permis",
+      "overallProgress": "Progression Globale",
+      "milestones": "Étapes Clés",
+      "completedLessons": "Leçons Terminées",
+      "theoryExam": "Examen Théorique",
+      "practicalExam": "Examen Pratique",
+      "notTaken": "Non passé",
+      "lessonHistory": "Historique des Leçons",
+      "examHistory": "Historique des Examens",
+      "noLessons": "Aucun historique de leçons trouvé.",
+      "noExams": "Aucun historique d'examens trouvé.",
+      "trainer": "Moniteur",
+      "car": "Voiture",
+      "date": "Date",
+      "time": "Heure",
+      "type": "Type",
+      "result": "Résultat"
+    }
+  },
+  "trainerManagement": {
+    "title": "Gestion des Moniteurs",
+    "addTrainer": "Ajouter Moniteur",
+    "backToList": "Retour à la liste",
+    "editAlert": "Modification du moniteur : {name}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {name} ?",
+    "deleteAlert": "Suppression du moniteur : {name}",
+    "columns": {
+      "id": "ID",
+      "name": "Nom",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "specialty": "Spécialité",
+      "hireDate": "Date d'embauche",
+      "cin": "CIN",
+      "licenseTypes": "Permis",
+      "associatedVehicles": "Véhicules Associés"
+    },
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "specialty": "Spécialité",
+      "cin": "CIN (Carte d'Identité)",
+      "licenseTypes": "Permis",
+      "associatedVehicles": "Véhicules Associés",
+      "associatedCars": "Voitures",
+      "associatedTrucks": "Camions",
+      "associatedBuses": "Bus",
+      "associatedMotorcycles": "Motos",
+      "licenseDDate": "Date d'émission du Permis D",
+      "picture": "Photo de Profil",
+      "diploma": "Diplôme",
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Moniteur"
+    },
+    "profile": {
+      "title": "Profil du Moniteur",
+      "editProfile": "Modifier le Profil",
+      "licenses": "Permis",
+      "hireDate": "Date d'embauche",
+      "associatedVehicles": "Véhicules Associés",
+      "noVehicles": "Aucun véhicule associé.",
+      "upcomingLessons": "Leçons à Venir",
+      "noLessons": "Aucune leçon à venir.",
+      "student": "Étudiant",
+      "car": "Voiture",
+      "date": "Date",
+      "time": "Heure"
+    }
+  },
+  "staffManagement": {
+    "title": "Gestion du Personnel",
+    "addStaff": "Ajouter Personnel",
+    "backToList": "Retour à la liste",
+    "editAlert": "Modification du membre du personnel : {name}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {name} ?",
+    "deleteAlert": "Suppression du membre du personnel : {name}",
+    "columns": {
+      "id": "ID",
+      "name": "Nom",
+      "role": "Rôle",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "hireDate": "Date d'embauche",
+      "salary": "Salaire",
+      "cin": "CIN"
+    },
+    "form": {
+      "name": "Nom complet",
+      "role": "Rôle (ex: Secrétaire, Nettoyeur)",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "cin": "CIN",
+      "address": "Adresse",
+      "whatsapp": "Numéro WhatsApp",
+      "salaryType": "Type de Salaire",
+      "salaryAmountMonthly": "Montant du Salaire (DH / mois)",
+      "salaryAmountHourly": "Montant du Salaire (DH / heure)",
+      "salaryAmountTask": "Montant du Salaire (DH / tâche)",
+      "picture": "Photo de Profil",
+      "salaryTypeOptions": {
+        "monthly": "Mensuel",
+        "hourly": "Par Heure",
+        "task_based": "Par Tâche"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Personnel"
+    }
+  },
+  "carManagement": {
+    "title": "Gestion des Voitures",
+    "addCar": "Ajouter Voiture",
+    "editAlert": "Modification de la voiture : {make} {model}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {make} {model} ?",
+    "deleteAlert": "Suppression de la voiture : {make} {model}",
+    "viewMaintenanceTooltip": "Voir le calendrier de maintenance pour {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque d'immatriculation",
+      "status": "Statut"
+    },
+    "form": {
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque d'immatriculation",
+      "status": "Statut",
+      "statusOptions": {
+        "available": "Disponible",
+        "in_use": "En utilisation",
+        "maintenance": "En maintenance"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Voiture"
+    }
+  },
+  "truckManagement": {
+    "title": "Gestion des Camions",
+    "addTruck": "Ajouter Camion",
+    "editAlert": "Modification du camion : {make} {model}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {make} {model} ?",
+    "deleteAlert": "Suppression du camion : {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque",
+      "status": "Statut",
+      "type": "Type"
+    },
+    "form": {
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque d'immatriculation",
+      "status": "Statut",
+      "type": "Type",
+      "typeOptions": {
+        "normal": "Normal",
+        "long_haul": "Longue Distance"
+      },
+      "statusOptions": {
+        "available": "Disponible",
+        "in_use": "En utilisation",
+        "maintenance": "En maintenance"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Camion"
+    }
+  },
+  "busManagement": {
+    "title": "Gestion des Bus",
+    "addBus": "Ajouter Bus",
+    "editAlert": "Modification du bus : {make} {model}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {make} {model} ?",
+    "deleteAlert": "Suppression du bus : {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque",
+      "status": "Statut",
+      "capacity": "Capacité"
+    },
+    "form": {
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque d'immatriculation",
+      "status": "Statut",
+      "capacity": "Capacité (passagers)",
+      "statusOptions": {
+        "available": "Disponible",
+        "in_use": "En utilisation",
+        "maintenance": "En maintenance"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Bus"
+    }
+  },
+  "motorcycleManagement": {
+    "title": "Gestion des Motos",
+    "addMotorcycle": "Ajouter Moto",
+    "editAlert": "Modification de la moto : {make} {model}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {make} {model} ?",
+    "deleteAlert": "Suppression de la moto : {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque",
+      "status": "Statut",
+      "engineDisplacement": "Cylindrée (cc)"
+    },
+    "form": {
+      "make": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "licensePlate": "Plaque d'immatriculation",
+      "status": "Statut",
+      "engineDisplacement": "Cylindrée (cc)",
+      "statusOptions": {
+        "available": "Disponible",
+        "in_use": "En utilisation",
+        "maintenance": "En maintenance"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Moto"
+    }
+  },
+  "vehicleManagement": {
+    "title": "Gestion des Véhicules",
+    "carsCardTitle": "Voitures",
+    "carsCardDescription": "Gérez la flotte de voitures de votre école.",
+    "trucksCardTitle": "Camions",
+    "trucksCardDescription": "Gérez la flotte de poids lourds de votre école.",
+    "busesCardTitle": "Bus",
+    "busesCardDescription": "Gérez la flotte de bus de votre école.",
+    "motorcyclesCardTitle": "Motos",
+    "motorcyclesCardDescription": "Gérez la flotte de motos de votre école.",
+    "manageButton": "Gérer",
+    "backToVehicles": "Retour aux Véhicules"
+  },
+  "lessonManagement": {
+    "title": "Gestion des Leçons",
+    "addLesson": "Ajouter Leçon",
+    "editAlert": "Modification de la leçon : {id}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer la leçon {id} ?",
+    "deleteAlert": "Suppression de la leçon : {id}",
+    "columns": {
+      "id": "ID",
+      "studentName": "Étudiant",
+      "trainerName": "Moniteur",
+      "carName": "Voiture",
+      "date": "Date",
+      "startTime": "Heure de début",
+      "status": "Statut"
+    },
+    "form": {
+      "student": "Étudiant",
+      "selectStudent": "Sélectionnez un étudiant",
+      "trainer": "Moniteur",
+      "selectTrainer": "Sélectionnez un moniteur",
+      "car": "Voiture (disponible uniquement)",
+      "selectCar": "Sélectionnez une voiture",
+      "date": "Date",
+      "startTime": "Heure de début",
+      "endTime": "Heure de fin",
+      "status": "Statut",
+      "statusOptions": {
+        "scheduled": "Planifiée",
+        "completed": "Terminée",
+        "cancelled": "Annulée"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Leçon"
+    }
+  },
+  "paymentManagement": {
+    "title": "Gestion des Paiements",
+    "addPayment": "Ajouter Paiement",
+    "licensePricesTitle": "Prix des Catégories de Permis",
+    "licensePrices": {
+      "addCategory": "Ajouter Catégorie",
+      "editTitle": "Modifier Catégorie : {category}",
+      "addTitle": "Ajouter Nouvelle Catégorie",
+      "deleteConfirm": "Êtes-vous sûr de vouloir supprimer la catégorie {category} ?",
+      "errorExists": "La catégorie '{category}' existe déjà.",
+      "form": {
+        "category": "Nom de la catégorie",
+        "price": "Prix (DH)",
+        "save": "Enregistrer",
+        "cancel": "Annuler"
+      }
+    },
+    "editAlert": "Modification du paiement : {id}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer le paiement {id} ?",
+    "deleteAlert": "Suppression du paiement : {id}",
+    "columns": {
+      "id": "ID",
+      "studentName": "Étudiant",
+      "amount": "Montant Payé (DH)",
+      "date": "Date",
+      "method": "Méthode",
+      "status": "Statut"
+    },
+    "form": {
+      "student": "Étudiant (Catégorie de Permis)",
+      "selectStudent": "Sélectionnez un étudiant",
+      "totalAmount": "Montant Total",
+      "advanceAmount": "Montant de l'avance",
+      "remainingAmount": "Montant Restant",
+      "date": "Date de paiement",
+      "method": "Méthode de paiement",
+      "methodOptions": {
+        "card": "Carte",
+        "cash": "Espèces",
+        "transfer": "Virement bancaire"
+      },
+      "status": "Statut",
+      "statusOptions": {
+        "paid": "Payé",
+        "pending": "En attente",
+        "overdue": "En retard"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Paiement"
+    }
+  },
+  "examManagement": {
+    "title": "Gestion des Examens",
+    "addExam": "Ajouter Examen",
+    "editAlert": "Modification de l'examen : {id}",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer l'examen {id} ?",
+    "deleteAlert": "Suppression de l'examen : {id}",
+    "shareMessage": "Résultat d'examen pour {studentName} : Résultat - {result} pour l'examen {type} le {date}. - Partagé depuis DriveWise",
+    "failedTheoryCooldown": "Cet étudiant a échoué à un examen théorique le {lastDate}. Un nouvel examen ne peut être programmé que 15 jours après l'échec, soit le ou après le {nextDate}.",
+    "filterByResult": "Filtrer par résultat",
+    "sortBy": "Trier par",
+    "noExamsFound": "Aucun examen trouvé. Essayez d'ajuster vos filtres.",
+    "filterOptions": {
+      "all": "Tous les résultats",
+      "passed": "Réussi",
+      "failed": "Échoué",
+      "pending": "En attente"
+    },
+    "sortOptions": {
+      "dateDesc": "Plus récent",
+      "dateAsc": "Plus ancien"
+    },
+    "columns": {
+      "id": "ID",
+      "studentName": "Étudiant",
+      "date": "Date",
+      "type": "Type",
+      "result": "Résultat"
+    },
+    "form": {
+      "student": "Étudiant",
+      "selectStudent": "Sélectionnez un étudiant",
+      "date": "Date de l'examen",
+      "type": "Type d'examen",
+      "typeOptions": {
+        "theory": "Théorique",
+        "practical": "Pratique"
+      },
+      "result": "Résultat",
+      "resultOptions": {
+        "passed": "Réussi",
+        "failed": "Échoué",
+        "pending": "En attente"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter Examen"
+    }
+  },
+  "chargeManagement": {
+    "title": "Gestion des Charges",
+    "addCharge": "Ajouter Charge",
+    "filterByCategory": "Filtrer par catégorie",
+    "allCategories": "Toutes catégories",
+    "sortBy": "Trier par",
+    "sortOptions": {
+      "dateDesc": "Date (Plus récent)",
+      "dateAsc": "Date (Plus ancien)",
+      "amountDesc": "Montant (Décroissant)",
+      "amountAsc": "Montant (Croissant)"
+    },
+    "noChargesFound": "Aucune charge trouvée. Essayez d'ajuster vos filtres.",
+    "viewInvoice": "Voir la facture",
+    "detailsModalTitle": "Détails de la charge",
+    "details": {
+      "category": "Catégorie",
+      "amount": "Montant",
+      "beneficiary": "Bénéficiaire",
+      "date": "Date",
+      "invoice": "Facture"
+    },
+    "columns": {
+      "id": "ID",
+      "category": "Catégorie",
+      "amount": "Montant (DH)",
+      "beneficiary": "Bénéficiaire",
+      "date": "Date",
+      "invoice": "Facture"
+    },
+    "form": {
+      "category": "Catégorie",
+      "selectCategory": "Sélectionnez une catégorie",
+      "amount": "Montant (DH)",
+      "beneficiary": "Bénéficiaire",
+      "date": "Date",
+      "invoice": "Facture (Optionnel)",
+      "submitAdd": "Ajouter Charge",
+      "cancel": "Annuler",
+      "categories": {
+        "office_rent": "Loyer du bureau",
+        "electricity": "Électricité",
+        "water": "Eau",
+        "phone": "Téléphone",
+        "internet": "Internet",
+        "logiciel": "Logiciel",
+        "salary": "Salaire",
+        "mechanic": "Mécanicien",
+        "purchase": "Achat",
+        "other": "Autre"
+      }
+    }
+  },
+  "dataTable": {
+    "loading": "Chargement des données...",
+    "actions": "Actions",
+    "share": "Partager le résultat",
+    "viewMaintenance": "Voir la maintenance",
+    "viewProgress": "Voir la progression",
+    "viewInspection": "Voir les inspections",
+    "viewProfile": "Voir le profil"
+  },
+  "maintenanceModal": {
+    "title": "Maintenance pour {vehicleName}",
+    "addTitle": "Ajouter un nouvel enregistrement de maintenance",
+    "existingRecords": "Enregistrements existants",
+    "noRecords": "Aucun enregistrement de maintenance trouvé pour cette voiture.",
+    "loading": "Chargement des enregistrements de maintenance...",
+    "columns": {
+      "date": "Date",
+      "description": "Description",
+      "cost": "Coût",
+      "status": "Statut"
+    },
+    "form": {
+      "date": "Date",
+      "description": "Description (ex: Vidange d'huile, Permutation des pneus)",
+      "cost": "Coût (DH)",
+      "status": "Statut",
+      "statusOptions": {
+        "scheduled": "Planifiée",
+        "completed": "Terminée"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter l'enregistrement"
+    }
+  },
+   "studentProgressModal": {
+    "title": "Progression pour {studentName}",
+    "loading": "Chargement des détails de la progression...",
+    "overallProgress": "Progression Globale",
+    "milestones": "Étapes Clés",
+    "completedLessons": "Leçons Terminées",
+    "theoryExam": "Examen Théorique",
+    "practicalExam": "Examen Pratique",
+    "notTaken": "Non passé",
+    "lessonHistory": "Historique des Leçons",
+    "examHistory": "Historique des Examens",
+    "noLessons": "Aucun historique de leçons trouvé.",
+    "noExams": "Aucun historique d'examens trouvé."
+  },
+  "inspectionModal": {
+    "title": "Inspections pour {carName}",
+    "addTitle": "Ajouter une nouvelle inspection",
+    "existingRecords": "Historique des inspections",
+    "noRecords": "Aucun enregistrement d'inspection trouvé.",
+    "loading": "Chargement des inspections...",
+    "columns": {
+      "date": "Date",
+      "inspectorName": "Inspecteur",
+      "result": "Résultat",
+      "notes": "Notes"
+    },
+    "form": {
+      "date": "Date",
+      "inspectorName": "Nom de l'inspecteur",
+      "notes": "Notes",
+      "result": "Résultat",
+      "resultOptions": {
+        "passed": "Réussi",
+        "failed": "Échoué",
+        "pending": "En attente"
+      },
+      "cancel": "Annuler",
+      "submitAdd": "Ajouter l'inspection"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "tabs": {
+        "profile": "Profil de l'École",
+        "appearance": "Apparence",
+        "users": "Gestion des Utilisateurs",
+        "data": "Données & Exportation"
+    },
+    "schoolProfile": {
+        "title": "Mettre à jour le Profil",
+        "breadcrumb": "Paramètres Généraux",
+        "required": "Requis",
+        "optional": "Optionnel",
+        "form": {
+            "logo": "Logo de l'École",
+            "changeLogo": "Changer le Logo",
+            "name": "Nom de l'École",
+            "namePlaceholder": "Nom de l'École",
+            "adminName": "Nom de l'administrateur",
+            "adminNamePlaceholder": "Nom complet de l'administrateur",
+            "targetLine": "Slogan",
+            "targetLinePlaceholder": "Slogan de l'école",
+            "phone": "Numéro de Téléphone",
+            "phonePlaceholder": "N° de téléphone",
+            "email": "Adresse E-mail",
+            "emailPlaceholder": "email@exemple.com",
+            "website": "Site Web",
+            "websitePlaceholder": "URL du site web",
+            "address": "Adresse",
+            "addressPlaceholder": "Adresse",
+            "country": "Pays",
+            "countryPlaceholder": "Sélectionnez un pays",
+            "updateButton": "Mettre à jour le Profil",
+            "updatingButton": "Mise à jour..."
+        },
+        "preview": {
+            "title": "Aperçu du Profil",
+            "phone": "N° de Tél.",
+            "email": "E-mail",
+            "website": "Site Web",
+            "address": "Adresse",
+            "country": "Pays"
+        }
+    },
+    "appearance": {
+      "title": "Apparence",
+      "description": "Personnalisez l'apparence de votre application.",
+      "accentColor": "Couleur d'accentuation",
+      "fontFamily": "Police de caractères"
+    },
+    "userManagement": {
+      "title": "Gestion des utilisateurs et permissions",
+      "description": "Gérez les agences et les comptes secrétaire.",
+      "manageOffices": "Gérer les Agences",
+      "addOffice": "Ajouter une Agence",
+      "officeName": "Nom de l'agence",
+      "officeAddress": "Adresse",
+      "officePhone": "Téléphone",
+      "existingOffices": "Agences Existantes",
+      "noOffices": "Aucune agence n'a encore été ajoutée.",
+      "manageSecretaries": "Gérer les Secrétaires",
+      "addSecretary": "Ajouter Secrétaire",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "assignOffice": "Assigner à une agence",
+      "selectOffice": "Sélectionnez une agence...",
+      "existingSecretaries": "Secrétaires existants",
+      "deleteSecretaryConfirm": "Êtes-vous sûr de vouloir supprimer le secrétaire {name} ?"
+    },
+    "dataExport": {
+      "title": "Sauvegarde et Exportation des Données",
+      "description": "Exportez les données de votre école au format CSV.",
+      "businessFeature": "Fonctionnalité du Plan Business",
+      "exportButton": "Exporter les Données en CSV",
+      "dataType": "Données à Exporter"
+    }
+  },
+  "calendar": {
+    "title": "Calendrier de Disponibilité des Véhicules",
+    "filterByVehicle": "Filtrer par type de véhicule:",
+    "all": "Tous",
+    "cars": "Voitures",
+    "trucks": "Camions",
+    "buses": "Bus",
+    "motorcycles": "Motos",
+    "lesson": "Leçon",
+    "maintenance": "Maintenance"
+  },
+  "notImplemented": "La gestion de {view} n'est pas encore implémentée."
+}

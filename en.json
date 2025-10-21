@@ -1,0 +1,743 @@
+{
+  "login": {
+    "brandName": "IssraeDrive",
+    "title": "Sign In",
+    "subtitle": "Sign in to your account",
+    "emailPlaceholder": "Email address",
+    "passwordPlaceholder": "Password",
+    "signInButton": "Sign in",
+    "signingInButton": "Signing in...",
+    "invalidCredentials": "Invalid credentials. Please try again.",
+    "welcomeTitle": "Welcome to IssraeDrive",
+    "welcomeDescription": "The all-in-one platform to manage your driving school with efficiency and ease.",
+    "demoAccess": "Or continue with demo access",
+    "demoAdmin": "Demo Admin",
+    "demoSecretary": "Demo Secretary",
+    "demoSuperAdmin": "Demo Super Admin"
+  },
+  "header": {
+    "logout": "Logout",
+    "profileName": "Admin"
+  },
+  "sidebar": {
+    "brand": "IssraeDrive",
+    "dashboard": "Dashboard",
+    "students": "Students",
+    "trainers": "Trainers",
+    "staff": "Staff",
+    "vehicles": "Vehicles",
+    "lessons": "Lessons",
+    "calendar": "Calendar",
+    "payments": "Payments",
+    "exams": "Exams",
+    "charge": "Charges",
+    "settings": "Settings",
+    "schools": "School Management",
+    "subscriptions": "Subscriptions"
+  },
+  "superAdminDashboard": {
+    "title": "SaaS Platform Overview",
+    "totalSchools": "Total Schools",
+    "totalStudents": "Total Students",
+    "totalTrainers": "Total Trainers",
+    "totalSaaSRevenue": "Total SaaS Revenue",
+    "subscriptionDistribution": "Subscription Distribution"
+  },
+  "schoolManagementSaaS": {
+    "title": "School Management",
+    "addSchool": "Add New School",
+    "columns": {
+      "name": "School Name",
+      "address": "Address",
+      "phone": "Phone",
+      "subscription": "Plan",
+      "students": "Students"
+    },
+    "form": {
+      "name": "School Name",
+      "address": "Address",
+      "phone": "Phone Number",
+      "subscriptionPack": "Subscription Pack",
+      "cancel": "Cancel",
+      "submit": "Add School"
+    }
+  },
+  "subscriptionManagement": {
+    "title": "Subscription Plans",
+    "pricePerMonth": "/ month",
+    "editPlan": "Edit Plan",
+    "editModalTitle": "Edit: {planName}",
+    "form": {
+      "name": "Plan Name",
+      "price": "Price (DH)",
+      "features": "Features (one per line)",
+      "save": "Save Changes",
+      "cancel": "Cancel"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalStudents": "Total Students",
+    "scheduledLessons": "Scheduled Lessons",
+    "totalRevenue": "Total Revenue",
+    "availableCars": "Available Cars",
+    "totalCharges": "Total Charges",
+    "totalStaff": "Total Staff",
+    "chargeStaff": "Staff Charges",
+    "presentStaff": "Present Staff",
+    "absentStaff": "Absent Staff",
+    "lessonsPerMonth": "Lessons per Month",
+    "revenuePerMonth": "Revenue per Month",
+    "loading": "Loading dashboard data...",
+    "weeklyReports": "Weekly Reports",
+    "welcome": {
+      "hello": "Hello, {adminName}!",
+      "message": "Welcome back to your dashboard."
+    }
+  },
+  "statCard": {
+    "viewDetails": "View details for {card}"
+  },
+  "studentManagement": {
+    "title": "Student Management",
+    "addStudent": "Add Student",
+    "backToList": "Back to List",
+    "archive": {
+      "view": "View Archive"
+    },
+    "editAlert": "Editing student: {name}",
+    "deleteConfirm": "Are you sure you want to delete {name}?",
+    "deleteAlert": "Deleting student: {name}",
+    "columns": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "joinDate": "Join Date",
+      "status": "Status",
+      "licenseCategory": "License Category"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "licenseCategory": "License Category",
+      "office": "Office",
+      "status": "Status",
+      "inscriptionDate": "Inscription Date",
+      "categoryPrice": "Category Price (DH)",
+      "actualPrice": "Actual Price (DH)",
+      "advancePayment": "Advance Payment (DH)",
+      "remainingAmount": "Remaining Amount (DH)",
+      "statusOptions": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "completed": "Completed"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Student"
+    },
+    "profile": {
+      "title": "Student Profile",
+      "editProfile": "Edit Profile",
+      "joinDate": "Join Date",
+      "licenseCategory": "License Category",
+      "overallProgress": "Overall Progress",
+      "milestones": "Key Milestones",
+      "completedLessons": "Completed Lessons",
+      "theoryExam": "Theory Exam",
+      "practicalExam": "Practical Exam",
+      "notTaken": "Not Taken",
+      "lessonHistory": "Lesson History",
+      "examHistory": "Exam History",
+      "noLessons": "No lesson history found.",
+      "noExams": "No exam history found.",
+      "trainer": "Trainer",
+      "car": "Car",
+      "date": "Date",
+      "time": "Time",
+      "type": "Type",
+      "result": "Result"
+    }
+  },
+  "trainerManagement": {
+    "title": "Trainer Management",
+    "addTrainer": "Add Trainer",
+    "backToList": "Back to List",
+    "editAlert": "Editing trainer: {name}",
+    "deleteConfirm": "Are you sure you want to delete {name}?",
+    "deleteAlert": "Deleting trainer: {name}",
+    "columns": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "specialty": "Specialty",
+      "hireDate": "Hire Date",
+      "cin": "CIN",
+      "licenseTypes": "Licenses",
+      "associatedVehicles": "Associated Vehicles"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "specialty": "Specialty",
+      "cin": "CIN (National ID)",
+      "licenseTypes": "Licenses",
+      "associatedVehicles": "Associated Vehicles",
+      "associatedCars": "Cars",
+      "associatedTrucks": "Trucks",
+      "associatedBuses": "Buses",
+      "associatedMotorcycles": "Motorcycles",
+      "licenseDDate": "License D Issue Date",
+      "picture": "Profile Picture",
+      "diploma": "Diploma Certificate",
+      "cancel": "Cancel",
+      "submitAdd": "Add Trainer"
+    },
+    "profile": {
+      "title": "Trainer Profile",
+      "editProfile": "Edit Profile",
+      "licenses": "Licenses",
+      "hireDate": "Hire Date",
+      "associatedVehicles": "Associated Vehicles",
+      "noVehicles": "No vehicles associated.",
+      "upcomingLessons": "Upcoming Lessons",
+      "noLessons": "No upcoming lessons.",
+      "student": "Student",
+      "car": "Car",
+      "date": "Date",
+      "time": "Time"
+    }
+  },
+  "staffManagement": {
+    "title": "Staff Management",
+    "addStaff": "Add Staff",
+    "backToList": "Back to List",
+    "editAlert": "Editing staff member: {name}",
+    "deleteConfirm": "Are you sure you want to delete {name}?",
+    "deleteAlert": "Deleting staff member: {name}",
+    "columns": {
+      "id": "ID",
+      "name": "Name",
+      "role": "Role",
+      "email": "Email",
+      "phone": "Phone",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "cin": "CIN"
+    },
+    "form": {
+      "name": "Full Name",
+      "role": "Role (e.g., Secretary, Cleaner)",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "cin": "CIN (National ID)",
+      "address": "Address",
+      "whatsapp": "WhatsApp Number",
+      "salaryType": "Salary Type",
+      "salaryAmountMonthly": "Salary Amount (DH / month)",
+      "salaryAmountHourly": "Salary Amount (DH / hour)",
+      "salaryAmountTask": "Salary Amount (DH / task)",
+      "picture": "Profile Picture",
+      "salaryTypeOptions": {
+        "monthly": "Monthly",
+        "hourly": "Hourly",
+        "task_based": "Per Task"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Staff"
+    }
+  },
+  "carManagement": {
+    "title": "Car Management",
+    "addCar": "Add Car",
+    "editAlert": "Editing car: {make} {model}",
+    "deleteConfirm": "Are you sure you want to delete {make} {model}?",
+    "deleteAlert": "Deleting car: {make} {model}",
+    "viewMaintenanceTooltip": "View Maintenance Schedule for {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status"
+    },
+    "form": {
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status",
+      "statusOptions": {
+        "available": "Available",
+        "in_use": "In Use",
+        "maintenance": "Maintenance"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Car"
+    }
+  },
+  "truckManagement": {
+    "title": "Truck Management",
+    "addTruck": "Add Truck",
+    "editAlert": "Editing truck: {make} {model}",
+    "deleteConfirm": "Are you sure you want to delete {make} {model}?",
+    "deleteAlert": "Deleting truck: {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status",
+      "type": "Type"
+    },
+    "form": {
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status",
+      "type": "Type",
+      "typeOptions": {
+        "normal": "Normal",
+        "long_haul": "Long Haul"
+      },
+      "statusOptions": {
+        "available": "Available",
+        "in_use": "In Use",
+        "maintenance": "Maintenance"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Truck"
+    }
+  },
+  "busManagement": {
+    "title": "Bus Management",
+    "addBus": "Add Bus",
+    "editAlert": "Editing bus: {make} {model}",
+    "deleteConfirm": "Are you sure you want to delete {make} {model}?",
+    "deleteAlert": "Deleting bus: {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status",
+      "capacity": "Capacity"
+    },
+    "form": {
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status",
+      "capacity": "Passenger Capacity",
+      "statusOptions": {
+        "available": "Available",
+        "in_use": "In Use",
+        "maintenance": "Maintenance"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Bus"
+    }
+  },
+  "motorcycleManagement": {
+    "title": "Motorcycle Management",
+    "addMotorcycle": "Add Motorcycle",
+    "editAlert": "Editing motorcycle: {make} {model}",
+    "deleteConfirm": "Are you sure you want to delete {make} {model}?",
+    "deleteAlert": "Deleting motorcycle: {make} {model}",
+    "columns": {
+      "id": "ID",
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status",
+      "engineDisplacement": "Engine (cc)"
+    },
+    "form": {
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "licensePlate": "License Plate",
+      "status": "Status",
+      "engineDisplacement": "Engine Displacement (cc)",
+      "statusOptions": {
+        "available": "Available",
+        "in_use": "In Use",
+        "maintenance": "Maintenance"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Motorcycle"
+    }
+  },
+  "vehicleManagement": {
+    "title": "Vehicle Management",
+    "carsCardTitle": "Cars",
+    "carsCardDescription": "Manage your school's fleet of cars.",
+    "trucksCardTitle": "Trucks",
+    "trucksCardDescription": "Manage your school's fleet of heavy trucks.",
+    "busesCardTitle": "Buses",
+    "busesCardDescription": "Manage your school's fleet of buses.",
+    "motorcyclesCardTitle": "Motorcycles",
+    "motorcyclesCardDescription": "Manage your school's fleet of motorcycles.",
+    "manageButton": "Manage",
+    "backToVehicles": "Back to Vehicles"
+  },
+  "lessonManagement": {
+    "title": "Lesson Management",
+    "addLesson": "Add Lesson",
+    "editAlert": "Editing lesson: {id}",
+    "deleteConfirm": "Are you sure you want to delete lesson {id}?",
+    "deleteAlert": "Deleting lesson: {id}",
+    "columns": {
+      "id": "ID",
+      "studentName": "Student",
+      "trainerName": "Trainer",
+      "carName": "Car",
+      "date": "Date",
+      "startTime": "Start Time",
+      "status": "Status"
+    },
+    "form": {
+      "student": "Student",
+      "selectStudent": "Select a student",
+      "trainer": "Trainer",
+      "selectTrainer": "Select a trainer",
+      "car": "Car (Available Only)",
+      "selectCar": "Select a car",
+      "date": "Date",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "status": "Status",
+      "statusOptions": {
+        "scheduled": "Scheduled",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Lesson"
+    }
+  },
+  "paymentManagement": {
+    "title": "Payment Management",
+    "addPayment": "Add Payment",
+    "licensePricesTitle": "License Category Prices",
+    "licensePrices": {
+      "addCategory": "Add Category",
+      "editTitle": "Edit Category: {category}",
+      "addTitle": "Add New Category",
+      "deleteConfirm": "Are you sure you want to delete category {category}?",
+      "errorExists": "Category '{category}' already exists.",
+      "form": {
+        "category": "Category Name",
+        "price": "Price (DH)",
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    },
+    "editAlert": "Editing payment: {id}",
+    "deleteConfirm": "Are you sure you want to delete payment {id}?",
+    "deleteAlert": "Deleting payment: {id}",
+    "columns": {
+      "id": "ID",
+      "studentName": "Student",
+      "amount": "Paid Amount (DH)",
+      "date": "Date",
+      "method": "Method",
+      "status": "Status"
+    },
+    "form": {
+      "student": "Student (License Category)",
+      "selectStudent": "Select a student",
+      "totalAmount": "Total Amount",
+      "advanceAmount": "Advance Amount",
+      "remainingAmount": "Remaining Amount",
+      "date": "Payment Date",
+      "method": "Payment Method",
+      "methodOptions": {
+        "card": "Card",
+        "cash": "Cash",
+        "transfer": "Bank Transfer"
+      },
+      "status": "Status",
+      "statusOptions": {
+        "paid": "Paid",
+        "pending": "Pending",
+        "overdue": "Overdue"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Payment"
+    }
+  },
+  "examManagement": {
+    "title": "Exam Management",
+    "addExam": "Add Exam",
+    "editAlert": "Editing exam: {id}",
+    "deleteConfirm": "Are you sure you want to delete exam {id}?",
+    "deleteAlert": "Deleting exam: {id}",
+    "shareMessage": "Exam Result for {studentName}: {result} the {type} exam on {date}. - Shared from DriveWise",
+    "failedTheoryCooldown": "This student failed a theory exam on {lastDate}. A new exam can only be scheduled 15 days after the failed exam, which is on or after {nextDate}.",
+    "filterByResult": "Filter by result",
+    "sortBy": "Sort by",
+    "noExamsFound": "No exams found. Try adjusting your filters.",
+    "filterOptions": {
+      "all": "All Results",
+      "passed": "Passed",
+      "failed": "Failed",
+      "pending": "Pending"
+    },
+    "sortOptions": {
+      "dateDesc": "Newest First",
+      "dateAsc": "Oldest First"
+    },
+    "columns": {
+      "id": "ID",
+      "studentName": "Student",
+      "date": "Date",
+      "type": "Type",
+      "result": "Result"
+    },
+    "form": {
+      "student": "Student",
+      "selectStudent": "Select a student",
+      "date": "Exam Date",
+      "type": "Exam Type",
+      "typeOptions": {
+        "theory": "Theory",
+        "practical": "Practical"
+      },
+      "result": "Result",
+      "resultOptions": {
+        "passed": "Passed",
+        "failed": "Failed",
+        "pending": "Pending"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Exam"
+    }
+  },
+  "chargeManagement": {
+    "title": "Charge Management",
+    "addCharge": "Add Charge",
+    "filterByCategory": "Filter by category",
+    "allCategories": "All Categories",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "dateDesc": "Date (Newest)",
+      "dateAsc": "Date (Oldest)",
+      "amountDesc": "Amount (High-Low)",
+      "amountAsc": "Amount (Low-High)"
+    },
+    "noChargesFound": "No charges found. Try adjusting your filters.",
+    "viewInvoice": "View Invoice",
+    "detailsModalTitle": "Charge Details",
+    "details": {
+      "category": "Category",
+      "amount": "Amount",
+      "beneficiary": "Beneficiary",
+      "date": "Date",
+      "invoice": "Invoice"
+    },
+    "columns": {
+      "id": "ID",
+      "category": "Category",
+      "amount": "Amount (DH)",
+      "beneficiary": "Beneficiary",
+      "date": "Date",
+      "invoice": "Invoice"
+    },
+    "form": {
+      "category": "Category",
+      "selectCategory": "Select a category",
+      "amount": "Amount (DH)",
+      "beneficiary": "Beneficiary",
+      "date": "Date",
+      "invoice": "Invoice (Optional)",
+      "submitAdd": "Add Charge",
+      "cancel": "Cancel",
+      "categories": {
+        "office_rent": "Office Rent",
+        "electricity": "Electricity",
+        "water": "Water",
+        "phone": "Phone",
+        "internet": "Internet",
+        "software": "Software",
+        "salary": "Salary",
+        "mechanic": "Mechanic",
+        "purchase": "Purchase",
+        "other": "Other"
+      }
+    }
+  },
+  "dataTable": {
+    "loading": "Loading data...",
+    "actions": "Actions",
+    "share": "Share result",
+    "viewMaintenance": "View maintenance",
+    "viewProgress": "View progress",
+    "viewInspection": "View inspections",
+    "viewProfile": "View profile"
+  },
+  "maintenanceModal": {
+    "title": "Maintenance for {vehicleName}",
+    "addTitle": "Add New Maintenance Record",
+    "existingRecords": "Existing Records",
+    "noRecords": "No maintenance records found for this car.",
+    "loading": "Loading maintenance records...",
+    "columns": {
+        "date": "Date",
+        "description": "Description",
+        "cost": "Cost",
+        "status": "Status"
+    },
+    "form": {
+        "date": "Date",
+        "description": "Description (e.g., Oil Change, Tire Rotation)",
+        "cost": "Cost (DH)",
+        "status": "Status",
+        "statusOptions": {
+            "scheduled": "Scheduled",
+            "completed": "Completed"
+        },
+        "cancel": "Cancel",
+        "submitAdd": "Add Record"
+    }
+  },
+   "studentProgressModal": {
+    "title": "Progress for {studentName}",
+    "loading": "Loading progress details...",
+    "overallProgress": "Overall Progress",
+    "milestones": "Key Milestones",
+    "completedLessons": "Completed Lessons",
+    "theoryExam": "Theory Exam",
+    "practicalExam": "Practical Exam",
+    "notTaken": "Not Taken",
+    "lessonHistory": "Lesson History",
+    "examHistory": "Exam History",
+    "noLessons": "No lesson history found.",
+    "noExams": "No exam history found."
+  },
+  "inspectionModal": {
+    "title": "Inspections for {carName}",
+    "addTitle": "Add New Inspection",
+    "existingRecords": "Inspection History",
+    "noRecords": "No inspection records found.",
+    "loading": "Loading inspections...",
+    "columns": {
+      "date": "Date",
+      "inspectorName": "Inspector",
+      "result": "Result",
+      "notes": "Notes"
+    },
+    "form": {
+      "date": "Date",
+      "inspectorName": "Inspector Name",
+      "notes": "Notes",
+      "result": "Result",
+      "resultOptions": {
+        "passed": "Passed",
+        "failed": "Failed",
+        "pending": "Pending"
+      },
+      "cancel": "Cancel",
+      "submitAdd": "Add Inspection"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+        "profile": "School Profile",
+        "appearance": "Appearance",
+        "users": "User Management",
+        "data": "Data & Export"
+    },
+    "schoolProfile": {
+        "title": "Update Profile",
+        "breadcrumb": "General Settings",
+        "required": "Required",
+        "optional": "Optional",
+        "form": {
+            "logo": "School Logo",
+            "changeLogo": "Change Logo",
+            "name": "Name of School",
+            "namePlaceholder": "School Name",
+            "adminName": "Admin Name",
+            "adminNamePlaceholder": "Admin Full Name",
+            "targetLine": "Target Line",
+            "targetLinePlaceholder": "Target Line",
+            "phone": "Phone Number",
+            "phonePlaceholder": "Phone No",
+            "email": "Email Address",
+            "emailPlaceholder": "email@example.com",
+            "website": "Website",
+            "websitePlaceholder": "Website URL",
+            "address": "Address",
+            "addressPlaceholder": "Address",
+            "country": "Country",
+            "countryPlaceholder": "Select a country",
+            "updateButton": "Update Profile",
+            "updatingButton": "Updating..."
+        },
+        "preview": {
+            "title": "Profile View",
+            "phone": "Phone No",
+            "email": "Email",
+            "website": "Website",
+            "address": "Address",
+            "country": "Country"
+        }
+    },
+    "appearance": {
+      "title": "Appearance",
+      "description": "Customize the look and feel of your application.",
+      "accentColor": "Accent Color",
+      "fontFamily": "Font Family"
+    },
+    "userManagement": {
+      "title": "User Management & Permissions",
+      "description": "Manage offices and secretary accounts.",
+      "manageOffices": "Manage Offices",
+      "addOffice": "Add Office",
+      "officeName": "Office Name",
+      "officeAddress": "Address",
+      "officePhone": "Phone",
+      "existingOffices": "Existing Offices",
+      "noOffices": "No offices have been added yet.",
+      "manageSecretaries": "Manage Secretaries",
+      "addSecretary": "Add Secretary",
+      "name": "Full Name",
+      "email": "Email Address",
+      "password": "Password",
+      "assignOffice": "Assign to Office",
+      "selectOffice": "Select an office...",
+      "existingSecretaries": "Existing Secretaries",
+      "deleteSecretaryConfirm": "Are you sure you want to delete the secretary {name}?"
+    },
+    "dataExport": {
+      "title": "Data Backup & Export",
+      "description": "Export your school's data to CSV format.",
+      "businessFeature": "Business Plan Feature",
+      "exportButton": "Export Data as CSV",
+      "dataType": "Data to Export"
+    }
+  },
+  "calendar": {
+    "title": "Vehicle Availability Calendar",
+    "filterByVehicle": "Filter by vehicle type:",
+    "all": "All",
+    "cars": "Cars",
+    "trucks": "Trucks",
+    "buses": "Buses",
+    "motorcycles": "Motorcycles",
+    "lesson": "Lesson",
+    "maintenance": "Maintenance"
+  },
+  "notImplemented": "{view} management is not yet implemented."
+}
